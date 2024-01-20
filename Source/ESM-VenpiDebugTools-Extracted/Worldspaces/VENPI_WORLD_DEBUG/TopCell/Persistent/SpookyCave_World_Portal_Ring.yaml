@@ -1,0 +1,10 @@
+MutagenObjectType: PlacedObject
+FormKey: 000852:VenpiDebugTools.esm
+MajorRecordFlagsRaw: 1024
+EditorID: SpookyCave_World_Portal_Ring
+StarfieldMajorRecordFlags:
+- 0x400
+Base: 2E8D52:Starfield.esm
+Layer: 2B3CB6:Starfield.esm
+Position: -10, 18, 1.5
+Rotation: 0, 1.7453293, 0

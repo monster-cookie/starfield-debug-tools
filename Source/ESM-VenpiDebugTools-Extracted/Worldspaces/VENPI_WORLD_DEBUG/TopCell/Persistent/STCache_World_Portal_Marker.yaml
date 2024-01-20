@@ -1,0 +1,21 @@
+MutagenObjectType: PlacedObject
+FormKey: 00084F:VenpiDebugTools.esm
+MajorRecordFlagsRaw: 1024
+EditorID: STCache_World_Portal_Marker
+StarfieldMajorRecordFlags:
+- 0x400
+Base: 254245:Starfield.esm
+Radius: 5
+MapMarker:
+  Flags:
+  - Visible
+  - CanTravelTo
+  - 0x10
+  Name:
+    TargetLanguage: English
+    Value: Portal
+  Type: 21
+  VNAM: 2
+  VISI: 0
+Layer: 22100A:Starfield.esm
+Position: -2, 18, 0

@@ -1,0 +1,35 @@
+FormKey: 000832:VenpiDebugTools.esm
+EditorID: VENPI_DEBUG_CELL
+Name:
+  TargetLanguage: English
+  Value: Venpi Debug Cell
+Flags:
+- IsInteriorCell
+- PlayerFollowersCannotTravelHere
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+XCLAs:
+- XCLA: 1
+  XCLD: Default Layer Name 1
+- XCLA: 2
+  XCLD: Default Layer Name 2
+- XCLA: 3
+  XCLD: Default Layer Name 3
+- XCLA: 4
+  XCLD: Default Layer Name 4
+ImageSpace: 0016C4:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds

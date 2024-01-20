@@ -1,0 +1,15 @@
+MutagenObjectType: PlacedObject
+FormKey: 000837:VenpiDebugTools.esm
+MajorRecordFlagsRaw: 1024
+EditorID: CoraDungeon_Portal_Door
+StarfieldMajorRecordFlags:
+- 0x400
+Base: 24F9CE:Starfield.esm
+TeleportDestination:
+  Door: 00106E:CoraCoeMultiversalBookHunter.esm
+  Position: -31.33, 91.76, -2.55
+  Rotation: 0, 0, 4.820599
+NavigationDoorLink:
+  NavMesh: 001085:CoraCoeMultiversalBookHunter.esm
+  TeleportMarkerTriangle: 6200
+Position: 3, 10, 0
