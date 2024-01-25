@@ -5,7 +5,10 @@ Name:
   Value: Venpi Debug Cell
 Flags:
 - IsInteriorCell
+- CantTravelFromHere
 - PlayerFollowersCannotTravelHere
+- 0x10000
+- 0x20000
 Lighting:
   AmbientColor: '#00282417'
   DirectionalColor: '#003F4749'
@@ -19,6 +22,7 @@ Lighting:
   ForColorHighFar: '#00635F4B'
   HighDensityScale: 0.7
   FarHeightMid: 10000
+  Unknown2: 4
 LightingTemplate: 0300E2:Starfield.esm
 WaterHeight: 3.4028235E+38
 XILS: 1
@@ -31,5 +35,6 @@ XCLAs:
   XCLD: Default Layer Name 3
 - XCLA: 4
   XCLD: Default Layer Name 4
-ImageSpace: 0016C4:Starfield.esm
+AcousticSpace: 2705AE:Starfield.esm
+ImageSpace: 0E8285:Starfield.esm
 EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
