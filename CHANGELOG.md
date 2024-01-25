@@ -1,4 +1,4 @@
-# Starfield Debug Tools
+# Venworks Debug Tools
 
-## V1.0.0 (BETA)
+## Version 1.0.0
 * Initial Release
