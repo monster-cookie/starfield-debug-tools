@@ -20,3 +20,13 @@ Please note, when adding you markers to the overridden VPDT_FT_Destinations list
 1. Type and execute: CGF "VPDT_Debug.FastTravelLocations"
 1. Close the console usually ~
 1. Choose your poison and fast travel
+
+### Example settings for VPDT_FT_Destinations
+[Example settings for VPDT_FT_Destinations](./Documentation/images/VPDT_FT_Destinations.png)
+
+
+### Example settings for VPDT_FT_Titles
+[Example Settings for VPDT_FT_Titles](./Documentation/images/VPDT_FT_Titles.png)
+
+### Updated Fast Travel menu
+[Screenshot of the rendered in game menu](./Documentation/images/InGameFastTravelMenu.png)
