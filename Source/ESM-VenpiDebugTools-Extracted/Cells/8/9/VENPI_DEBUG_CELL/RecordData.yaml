@@ -9,6 +9,7 @@ Flags:
 - PlayerFollowersCannotTravelHere
 - 0x10000
 - 0x20000
+- 0x80000
 Lighting:
   AmbientColor: '#00282417'
   DirectionalColor: '#003F4749'

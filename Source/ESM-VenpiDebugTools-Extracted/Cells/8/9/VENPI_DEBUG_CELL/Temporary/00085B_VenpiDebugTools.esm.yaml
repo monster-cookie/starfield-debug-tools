@@ -1,0 +1,4 @@
+MutagenObjectType: PlacedObject
+FormKey: 00085B:VenpiDebugTools.esm
+Base: 00085A:VenpiDebugTools.esm
+Position: -2.5, -0.5, 0

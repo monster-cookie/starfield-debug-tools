@@ -1,0 +1,30 @@
+MutagenObjectType: PlacedObject
+FormKey: 00085C:VenpiDebugTools.esm
+Components:
+- MutagenObjectType: ContactShadowComponent
+  Items:
+  - Unknown1: 0.009
+    Unknown2: 3
+    Unknown3: 10
+    Unknown4: 0.2
+    Unknown5: 0.06
+Base: 0E8282:Starfield.esm
+Radius: 30
+Lighting:
+  Fov90PlusMinus: -30.06717
+  Fade1PlusMinus: 0.01
+  ShadowDepthBias: 1.5200003
+  Unknown1: 2880154539
+  Unknown2: 2880154368
+LightBarndoorData:
+  Data: 0x00000000000000000000000000000000000000000000ABAB
+LightArea:
+  Data: 0x0000F0410000F0410000000000000000
+LightVolumetricData: 4
+LightColors:
+- UnknownColor: '#FAD6C5'
+  Unknown: -6076575255718002688
+Layer: 1E9BFB:Starfield.esm
+LightRoundedness:
+  Data: 0x0000000000000000000000000000000001ABABAB
+Position: -15, 15, 3

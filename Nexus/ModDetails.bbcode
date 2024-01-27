@@ -19,6 +19,39 @@ This is a debug interior cell and functional world space for testing game functi
 [size=4][b][u]Usage[/u][/b][/size]
 You can get the list of helper commands using the console and: CGF "VPDT_Help.Show"
 
+[size=3][b][u]Setup custom fast travel points[/u][/b][/size]
+
+[b]Do not remove the 3 fast travel targets that are already in the list.[/b]
+
+You need to fast travel to world space cells from the interior debug cell. If you try from a world space cell it will start the fast travel then goto a endless loading screen and sometimes crashing your video card. 
+
+Please note, when adding you markers to the overridden VPDT_FT_Destinations list you may have to add the master first. xedit/sf1edit are a bit weird in their automatic add master call. 
+[list=1]
+[*]Open xedit/sf1edit
+[*]Create a new patch ESM. I used the name VenpiDebugTools-MyTargetPoints-Patch.esm
+[*]In VenpiDebugTools override FormID List VPDT_FT_Destinations and Message VPDT_FT_Titles into the new file in step 1
+[*]Add the XMarkerHeading or COCMarkers for your cells (Normal Interior and World Space) to the VPDT_FT_Destinations
+[*]Add new menu items for the destination to VPDT_FT_Titles make sure the menu button IDs match the FormID List indexes.
+[*]Exit xedit/sf1edit saving your new file and place it where ever your need to for your installation. 
+[*]Start Starfield
+[*]Load your save 
+[*]Open the console usually ~
+[*]Type and execute: CGF "VPDT_Debug.FastTravelLocations"
+[*]Close the console usually ~
+[*]Choose your poison and fast travel
+[/list]
+
+[b][u]Example settings for VPDT_FT_Destinations[/b][/u]
+[img]https://i.imgur.com/bc8vVwY.png[/img]
+
+
+[b][u]Example settings for VPDT_FT_Titles[/b][/u]
+[img]https://i.imgur.com/DNT3ErV.png[/img]
+
+[b][u]Updated Fast Travel menu[/b][/u]
+[img]https://i.imgur.com/wQuKkgd.png[/img]
+
+
 [size=4][b][u]Installation [/u][/b][/size]
 
 [size=3][b]Via Vortex/MO2[/b][/size]

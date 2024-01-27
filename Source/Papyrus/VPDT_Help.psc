@@ -17,15 +17,10 @@ Function Show() Global
   message += "         Feature Flags Status Screen:\n\tCGF \"VPDT_Debug.FeatureFlags\"\n"
 
   ;; Fast Travel Helpers
-  message += "           Fast Travel To Debug Cell:\n\tCGF \"VPDT_Debug.FastTravelToDebugCell\"\n"
-  message += "    Fast Travel To Debug World Space:\n\tCGF \"VPDT_Debug.FastTravelToDebugWorldSpace\"\n"
-  message += "            Fast Travel To The Lodge:\n\tCGF \"VPDT_Debug.FastTravelToLodge\"\n"
+  message += "Fast Travel To Selected Location:\n\tCGF \"VPDT_Debug.FastTravelLocations\"\n"
 
-  ;; COC Helpers
-  message += "Center On Cell To Debug World Space*:\n\tcoc VENPI_WORLD_DEBUG_PRI_CELL\n"
-
-  ;; Footer notes
-  message += "\n\nTo COC you must come from an interior cell like the Lodge or your ship."
+  ;; Foot notes
+  message += "\n\nGoing to a world space you must come from an interior cell like the Interior Debug Cell."
 
   Debug.MessageBox(message)
 EndFunction

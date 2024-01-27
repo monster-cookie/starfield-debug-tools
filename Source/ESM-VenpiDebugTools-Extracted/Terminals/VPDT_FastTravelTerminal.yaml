@@ -1,0 +1,50 @@
+FormKey: 00085A:VenpiDebugTools.esm
+EditorID: VPDT_FastTravelTerminal
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TerminalScript
+ObjectBounds:
+  First: -0.44775388, -1.2673806, 0.0037841797
+  Second: 0.44775385, -0.044846445, 2.5585938
+ODTY: 0
+Components:
+- MutagenObjectType: AnimationGraphComponent
+  ANAM: AnimTextData\Tables\Graphs\HybridStateGraph01.agx
+  BNAM: setdressing\kiosks\kioskgeninfo_terminal01a\characterassets\skeleton.rig
+  CNAM: setdressing\kiosks\kioskgeninfo_terminal01a\animations
+Menu: 000859:VenpiDebugTools.esm
+Background: Constellation
+Name:
+  TargetLanguage: English
+  Value: Fast Travel Menu
+Model:
+  File: SetDressing\Kiosks\kioskgeninfo_terminal01a\KioskGenInfo_Terminal01A.nif
+  MaterialSwaps:
+  - 1563C1:Starfield.esm
+  FLLD: 0x01000000
+  XFLG: 0x02
+Keywords:
+- 0B799F:Starfield.esm
+- 12FD88:Starfield.esm
+- 1CC206:Starfield.esm
+- 21FE53:Starfield.esm
+PNAM: 0xCC4C3300
+FNAM: 0x0000
+JNAM: 0x6801
+MarkerFlags: HasModel
+GNAM: 0x6801
+WorkbenchData: 0x00
+FurnitureTemplate: 0B7921:Starfield.esm
+MarkerModel: Markers\FurnitureMarkers\Furn_Human_Standing.nif
+MarkerParameters:
+- Offset: 0, -1.1, 0
+  EntryTypes:
+  - Front
+  - Behind
+  - Right
+  - Left
+  - Other
+  - 0x20
+  - 0x40
+  - 0x80
+  Unknown: 0xFFFFFFFFFFFFFF
