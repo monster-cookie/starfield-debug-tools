@@ -51,5 +51,5 @@ Function FastTravelLocations() Global
 
   Int ftTarget = VPDT_FT_Titles.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
   Form targetForm = VPDT_FT_Destinations.GetAt(ftTarget)
-  Game.FastTravel(targetForm as ObjectReference)
+  VPI_TravelUtilities.SomeWhatSafeFastTravel(targetForm as ObjectReference)
 EndFunction
