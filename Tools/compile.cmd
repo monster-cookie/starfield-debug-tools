@@ -17,6 +17,9 @@ del /s /q "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-
 rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main"
 mkdir "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main"
 mkdir "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\Scripts\"
+mkdir "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\terrain\"
+mkdir "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\lodsettings\"
+mkdir "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects\"
 
 @REM Compile and deploy Scripts to Dist-BA2-Main folder
 @echo "Compiling all script in Source/Papyrus to Dist-BA2-Main folder"
@@ -27,6 +30,30 @@ mkdir "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main
   @echo "Error:  Compile all scripts has failed to compile <======================================="
   exit /b 1
 )
+
+@REM Deploy LOD to Dist-BA2-Main folder
+@echo "Deploy LOD to Dist-BA2-Main folder"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\LOD\VENWORKS_WORLD_DEBUG.lod" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\lodsettings"
+
+@REM Deploy Meshes to Dist-BA2-Main folder
+@echo "Deploy Meshes (VENWORKS_WORLD_DEBUG) to Dist-BA2-Main folder"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.1.-1.-1.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.1.-1.0.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.1.-1.1.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.1.0.-1.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.1.0.-2.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.1.0.0.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.1.0.1.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.2.-1.-1.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.2.-1.-3.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.2.-1.1.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.4.-3.-3.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.4.-3.1.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Meshes\VENWORKS_WORLD_DEBUG.8.-3.-3.nif" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\meshes\terrain\VENWORKS_WORLD_DEBUG\objects"
+
+@REM Deploy Terrain to Dist-BA2-Main folder
+@echo "Deploy Terrain to Dist-BA2-Main folder"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Terrain\VENWORKS_WORLD_DEBUG.btd" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\terrain"
 
 @REM ESM is purely binary so need to pull from starfield dir where xedit has to have it 
 @echo "Copying the ESM from MO2 into the Dist folder"
