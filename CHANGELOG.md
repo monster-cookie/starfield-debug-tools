@@ -1,5 +1,11 @@
 # Venworks Debug Tools
 
+## Version 1.0.3
+* World Space recreated on a real terrain with water support
+* World space cell has hab with all benches not. 
+* Renamed the cells to reference Venworks vs Venpi as more them 1 author is playing in the code now days. 
+* Debug cell and been completely redone and now has viable lighting stupid debug walls were destroying the lighting. Overtime it will probably become a full cave with 2 habs
+
 ## Version 1.0.2
 * Using the new travel helpers from Venworks Core
 
