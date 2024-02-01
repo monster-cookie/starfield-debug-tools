@@ -1,0 +1,112 @@
+FormKey: 0009A4:VenpiDebugTools.esm
+NavmeshGeometry:
+  Versioning:
+  - Break0
+  NavmeshVersion: 17
+  Parent:
+    MutagenObjectType: WorldspaceNavmeshParent
+    Parent: 000BAC:VenpiDebugTools.esm
+  Vertices:
+  - Point: 64.950005, 58.350002, -2.2866573
+    Unknown: 1
+  - Point: 65.05, 54.65, -0.78665733
+    Unknown: 1
+  - Point: 65.78333, 56.31667, -1.0366573
+    Unknown: 1
+  - Point: 66.15, 57.15, -0.8366585
+    Unknown: 1
+  - Point: 65.0325, 55.2975, -1.0491574
+  - Point: 64.955, 58.165, -2.2116575
+  Triangles:
+  - Vertices: 0, 1, 2
+    EdgeLink_0_1: -1
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: 1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49155
+  - Vertices: 3, 0, 2
+    EdgeLink_0_1: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49157
+  Cover:
+  - Vertex1: 4
+    Vertex2: 5
+    Data: 2149582337
+  - Vertex2: 7281
+    Data: 25783181084
+  - Vertex1: 7281
+    Vertex2: 18932
+    Data: 30078154650
+  - Vertex1: 18932
+    Vertex2: 27670
+    Data: 140840580941719
+  - Vertex1: 27670
+    Vertex2: 40777
+    Data: 105617552050069
+  - Vertex1: 40777
+    Vertex2: 49515
+    Data: 79229272854418
+  - Vertex1: 49515
+    Vertex2: 3
+    Data: 15526309400209
+  - Vertex1: 3
+    Vertex2: 20695
+    Data: 176952656922392
+  - Vertex1: 20695
+    Vertex2: 37941
+    Data: 146166331475869
+  - Vertex1: 37941
+    Vertex2: 48288
+    Data: 150564377993120
+  - Vertex1: 48288
+    Vertex2: 2
+    Data: 121977077771940
+  - Vertex1: 2
+    Vertex2: 10627
+    Data: 52776564819751
+  - Vertex1: 10627
+    Vertex2: 21254
+    Data: 21990239242154
+  - Vertex1: 21254
+    Vertex2: 31881
+    Data: 26392578623399
+  - Vertex1: 31881
+    Vertex2: 37195
+    Data: 8594392995
+  - Vertex1: 37195
+    Vertex2: 44280
+    Data: 889062688671
+  - Vertex1: 44280
+    Vertex2: 58450
+    Data: 1035099965338
+  - Vertex1: 58450
+    Vertex2: 1
+    Data: 1095234487959
+  CoverTriangleMappings:
+  - {}
+  - Cover: 6
+    Triangle: 7
+  - Cover: 1
+    Triangle: 11
+  - Cover: 4
+    Triangle: 1
+  GridSize: 1
+  GridMaxDistance: 1.199997, 3.7000008
+  GridMin: 64.950005, 54.65, -2.2866573
+  GridMax: 66.15, 58.350002, 3.4028235E+38
+  GridArrays:
+  - GridCell:
+    - 2
+    - 0
+    - 0
+    - 1
+    - 12
+    - 8
+PreCutMapEntries: []

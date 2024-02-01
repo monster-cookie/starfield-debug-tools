@@ -1,0 +1,5 @@
+MutagenObjectType: PlacedObject
+FormKey: 000BD0:VenpiDebugTools.esm
+EditorID: VENWORKS_INTERIOR_CELL_FakeTerrain_-14_+55
+Base: 2AB134:Starfield.esm
+Position: -14, 55, -0.5

@@ -1,0 +1,134 @@
+FormKey: 0009A6:VenpiDebugTools.esm
+NavmeshGeometry:
+  Versioning:
+  - Break0
+  NavmeshVersion: 17
+  Parent:
+    MutagenObjectType: WorldspaceNavmeshParent
+    Parent: 000BAC:VenpiDebugTools.esm
+  Vertices:
+  - Point: 62.9, 55.55, -3.1366577
+    Unknown: 1
+  - Point: 64.450005, 54.850002, -2.3866577
+    Unknown: 1
+  - Point: 63.350002, 57.65, -4.236658
+    Unknown: 1
+  - Point: 61.65, 56.95, -3.8866577
+    Unknown: 1
+  - Point: 61.95, 55.55, -3.236658
+    Unknown: 1
+  - Point: 63.95, 54.95, -2.3866577
+    Unknown: 1
+  - Point: 64.65, 53.75, -1.5366573
+    Unknown: 1
+  - Point: 63.15, 55, -2.5866585
+    Unknown: 1
+  - Point: 64.50152, 54.004547, -1.7169604
+  Triangles:
+  - Vertices: 0, 1, 2
+    EdgeLink_0_1: 3
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: 1
+    Height: 3.4028235E+38
+    Unknown: 4
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 0, 2, 3
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: 2
+    Height: 3.4028235E+38
+    Unknown: 4
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 0, 3, 4
+    EdgeLink_0_1: 1
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 1.8
+    Unknown: 4
+    Flags:
+    - Found
+    - 0x1000
+  - Vertices: 0, 5, 1
+    EdgeLink_0_1: 5
+    EdgeLink_1_2: 4
+    Height: 3.4028235E+38
+    Unknown: 4
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 16384
+  - Vertices: 1, 5, 6
+    EdgeLink_0_1: 3
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 6
+  - Vertices: 5, 0, 7
+    EdgeLink_0_1: 3
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Unknown: 4
+    Flags:
+    - Found
+    - 0x1000
+  Cover:
+  - Vertex1: 1
+    Vertex2: 13558
+    Data: 66580907843
+  - Vertex1: 13558
+    Vertex2: 27117
+    Data: 64431327166
+  - Vertex1: 27117
+    Vertex2: 40676
+    Data: 201870280614
+  - Vertex1: 40676
+    Vertex2: 51976
+    Data: 201870149539
+  - Vertex1: 51976
+    Vertex2: 58755
+    Data: 201867921314
+  - Vertex1: 58755
+    Vertex2: 6
+    Data: 201867921057
+  - Vertex1: 8
+    Vertex2: 12602
+    Data: 15599389
+  - Vertex1: 12602
+    Vertex2: 32767
+    Data: 77318358924
+  - Vertex1: 32767
+    Vertex2: 57973
+    Data: 8596637581
+  - Vertex1: 57973
+    Vertex2: 5
+    Data: 64435537548
+  CoverTriangleMappings:
+  - Cover: 17
+    Triangle: 6
+  - Cover: 18
+  GridSize: 1
+  GridMaxDistance: 3, 3.9000015
+  GridMin: 61.65, 53.75, -4.236658
+  GridMax: 64.65, 57.65, 3.4028235E+38
+  GridArrays:
+  - GridCell:
+    - 6
+    - 0
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 12
+    - 8
+PreCutMapEntries: []

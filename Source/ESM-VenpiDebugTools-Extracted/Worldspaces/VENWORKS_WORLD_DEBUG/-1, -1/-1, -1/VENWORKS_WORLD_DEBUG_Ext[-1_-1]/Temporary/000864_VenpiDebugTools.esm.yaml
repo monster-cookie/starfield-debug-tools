@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 000864:VenpiDebugTools.esm
+MajorRecordFlagsRaw: 268435456
+StarfieldMajorRecordFlags:
+- 0x10000000
+Base: 093518:Starfield.esm
+Position: -11.673111, -23.667377, -0.030628204

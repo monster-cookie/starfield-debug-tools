@@ -1,0 +1,6 @@
+MutagenObjectType: PlacedObject
+FormKey: 000BDD:VenpiDebugTools.esm
+EditorID: VENWORKS_INTERIOR_CELL_Hab1_BenchPharma
+Base: 2B6A61:Starfield.esm
+Position: -15.5, 37.5, 0
+Rotation: 0, 0, 5.235988

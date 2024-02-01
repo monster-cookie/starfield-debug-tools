@@ -1,0 +1,25 @@
+FormKey: 000BAE:VenpiDebugTools.esm
+MajorRecordFlagsRaw: 1048576
+EditorID: VENWORKS_WORLD_DEBUG_Location
+StarfieldMajorRecordFlags:
+- 0x100000
+LocationCellStaticReferences:
+- LocationRefType: 02271F:Starfield.esm
+  Marker: 000BA9:VenpiDebugTools.esm
+  Location: 000BAC:VenpiDebugTools.esm
+  Unknown: -1
+Name:
+  TargetLanguage: English
+  Value: Venworks Debug World Space
+Keywords:
+- 0C6928:Starfield.esm
+- 1A5468:Starfield.esm
+UnknownDATA2: 16
+ParentLocation: 01A9E1:Starfield.esm
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 0
+StarID: 67063
+PlanetID: 4
+MajorFlags:
+- 0x100000

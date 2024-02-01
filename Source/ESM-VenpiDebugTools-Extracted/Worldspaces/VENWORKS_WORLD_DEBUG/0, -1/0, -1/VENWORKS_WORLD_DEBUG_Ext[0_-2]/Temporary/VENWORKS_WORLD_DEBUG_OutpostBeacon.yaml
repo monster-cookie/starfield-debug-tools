@@ -1,0 +1,6 @@
+MutagenObjectType: PlacedObject
+FormKey: 00094B:VenpiDebugTools.esm
+EditorID: VENWORKS_WORLD_DEBUG_OutpostBeacon
+Base: 2C60E9:Starfield.esm
+Position: 24.876001, -113.97994, 0.869452
+Rotation: 0, 0, 1.5707963

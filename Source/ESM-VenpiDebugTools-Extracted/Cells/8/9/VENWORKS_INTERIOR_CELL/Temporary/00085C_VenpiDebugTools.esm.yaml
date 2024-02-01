@@ -1,0 +1,16 @@
+MutagenObjectType: PlacedObject
+FormKey: 00085C:VenpiDebugTools.esm
+Base: 07AA05:Starfield.esm
+Lighting:
+  Fov90PlusMinus: 90
+  Fade1PlusMinus: 0.25
+  ShadowDepthBias: 0.5
+  VolumetricIntensity: -100
+  Unknown1: 2880154539
+  Unknown2: 2880154368
+LightVolumetricData: -100
+LightColors:
+- UnknownColor: '#FFFFFF'
+  Unknown: -6076575255718002688
+Layer: 0AA30C:Starfield.esm
+Position: -6, 30, 3

@@ -1,0 +1,12 @@
+FormKey: 000BAB:VenpiDebugTools.esm
+MajorRecordFlagsRaw: 1024
+EditorID: VENWORKS_WORLD_DEBUG_Persistance
+StarfieldMajorRecordFlags:
+- 0x400
+Flags:
+- HasWater
+Grid: {}
+WaterHeight: 3.4028235E+38
+XILS: 1
+MajorFlags:
+- Persistent

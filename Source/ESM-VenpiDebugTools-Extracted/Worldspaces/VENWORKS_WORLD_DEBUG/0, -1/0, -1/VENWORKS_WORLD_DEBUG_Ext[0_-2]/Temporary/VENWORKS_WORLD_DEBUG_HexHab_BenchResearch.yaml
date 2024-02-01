@@ -1,0 +1,6 @@
+MutagenObjectType: PlacedObject
+FormKey: 000BBD:VenpiDebugTools.esm
+EditorID: VENWORKS_WORLD_DEBUG_HexHab_BenchResearch
+Base: 01A21B:Starfield.esm
+Position: 18.3, -129.2, 1.6
+Rotation: 0, 0, 3.1415925

@@ -1,0 +1,5 @@
+MutagenObjectType: PlacedObject
+FormKey: 000BC8:VenpiDebugTools.esm
+EditorID: VENWORKS_INTERIOR_CELL_Hab1_Wall6_Outside
+Base: 02419F:Starfield.esm
+Position: -6, 38, 0

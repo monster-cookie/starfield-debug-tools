@@ -1,0 +1,101 @@
+FormKey: 0008C2:VenpiDebugTools.esm
+NavmeshGeometry:
+  Versioning:
+  - Break0
+  NavmeshVersion: 17
+  Parent:
+    MutagenObjectType: WorldspaceNavmeshParent
+    Parent: 000BAC:VenpiDebugTools.esm
+    Coordinates: -1, 0
+  Vertices:
+  - Point: 24.25, -1.699997, 7.9646893
+    Unknown: 1
+  - Point: 22.5, 0, 7.2646885
+    Unknown: 1
+  - Point: 22.08, -1.7799988, 8.614689
+    Unknown: 1
+  - Point: 22.25, -4.2999954, 10.31469
+    Unknown: 1
+  - Point: 21.45, -4.449997, 10.114689
+    Unknown: 1
+  - Point: 23.800001, 0, 6.7646885
+    Unknown: 1
+  - Point: 23.873257, -0.2767437, 6.960037
+  Triangles:
+  - Vertices: 0, 1, 2
+    EdgeLink_0_1: 3
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: 1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49154
+  - Vertices: 3, 0, 2
+    EdgeLink_0_1: -1
+    EdgeLink_2_0: 2
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 16385
+  - Vertices: 4, 3, 2
+    EdgeLink_0_1: -1
+    EdgeLink_1_2: 1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 16389
+  - Vertices: 1, 0, 5
+    EdgeLink_1_2: -1
+    Height: 3.4028235E+38
+    Flags:
+    - EdgeLink_2_0
+    - Found
+    - 0x1000
+    CoverFlags: 32770
+  EdgeLinks:
+  - Mesh: 0009BA:VenpiDebugTools.esm
+    TriangleIndex: 3
+    Unknown2: 1
+  Cover:
+  - Vertex1: 6
+    Data: 65972845282305
+  - Vertex2: 3
+    Data: 74766790690305
+  - Vertex1: 3
+    Vertex2: 4
+    Data: 8796093023745
+  - Vertex1: 4
+    Vertex2: 2
+    Data: 246290604623361
+  - Vertex1: 2
+    Vertex2: 1
+    Data: 277076930200065
+  CoverTriangleMappings:
+  - Cover: 8
+    Triangle: 2
+  - Cover: 10
+    Triangle: 3
+  - Cover: 1
+    Triangle: 4
+  - Cover: 13
+  - Cover: 4
+    Triangle: 1
+  GridSize: 1
+  GridMaxDistance: 2.7999992, 4.449997
+  GridMin: 21.45, -4.449997, 6.7646885
+  GridMax: 24.25, 0, 3.4028235E+38
+  GridArrays:
+  - GridCell:
+    - 4
+    - 0
+    - 0
+    - 1
+    - 2
+    - 3
+    - 12
+    - 8
+PreCutMapEntries: []

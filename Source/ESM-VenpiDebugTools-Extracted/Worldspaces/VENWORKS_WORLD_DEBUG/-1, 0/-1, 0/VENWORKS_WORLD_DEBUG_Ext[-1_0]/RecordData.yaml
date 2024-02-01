@@ -1,0 +1,8 @@
+FormKey: 0008A9:VenpiDebugTools.esm
+EditorID: VENWORKS_WORLD_DEBUG_Ext[-1_0]
+Flags:
+- HasWater
+Grid:
+  Point: -1, 0
+WaterHeight: 3.4028235E+38
+XILS: 1

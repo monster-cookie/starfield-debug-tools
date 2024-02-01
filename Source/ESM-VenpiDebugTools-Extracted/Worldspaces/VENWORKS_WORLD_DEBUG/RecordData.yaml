@@ -1,0 +1,49 @@
+FormKey: 000BAC:VenpiDebugTools.esm
+EditorID: VENWORKS_WORLD_DEBUG
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0xFFFFFFFF
+  PNAM: 0xFFFFFFFF
+  SurfaceBlock: 000BAD:VenpiDebugTools.esm
+- MutagenObjectType: PlanetContentManagerContentPropertiesComponent
+  ZNAM: 0
+  YNAM: 0
+  XNAM: 0
+  WNAM: 0
+  VNAM: 1
+  UNAM: 0
+  NAM1: 0
+  Global: Null
+  NAM3: 0
+  NAM4: 0x00FF0000
+  NAM5: 0
+  NAM6: 0
+  NAM7: 0
+  NAM8: 1
+  NAM9: 0
+  Conditions: []
+Name:
+  TargetLanguage: English
+  Value: Venworks Debug World Space
+Location: 000BAE:VenpiDebugTools.esm
+Biome: 11B744:Starfield.esm
+Climate: 13EC20:Starfield.esm
+Water: 000018:Starfield.esm
+NAM7: materials/water/watersmoothmud.mat
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2048
+  DefaultWaterHeight: -1.7
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+FNAM: 0x00
+ObjectBoundsMin: -0.07324219, -0.07324219
+ObjectBoundsMax: 0.09765625, 0.09765625
+GNAM: 1
+XCLWs: []
+WHGTs: []
+HNAM: 0x05

@@ -1,0 +1,5 @@
+MutagenObjectType: PlacedObject
+FormKey: 000BAF:VenpiDebugTools.esm
+EditorID: VENWORKS_WORLD_DEBUG_HexHab_Shell
+Base: 0232DE:Starfield.esm
+Position: 18, -129, 1.6

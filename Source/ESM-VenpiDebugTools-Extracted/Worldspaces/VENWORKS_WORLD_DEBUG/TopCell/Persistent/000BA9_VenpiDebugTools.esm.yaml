@@ -1,0 +1,17 @@
+MutagenObjectType: PlacedObject
+FormKey: 000BA9:VenpiDebugTools.esm
+MajorRecordFlagsRaw: 1024
+StarfieldMajorRecordFlags:
+- 0x400
+Base: 254244:Starfield.esm
+Radius: 115
+MapMarker:
+  Flags:
+  - CanTravelTo
+  - UseLocationName
+  Name:
+    TargetLanguage: English
+    Value: Debug World Space
+LinkedReferences:
+- Reference: 000BAA:VenpiDebugTools.esm
+Position: 4.7161164, 6.233554, 4.324851

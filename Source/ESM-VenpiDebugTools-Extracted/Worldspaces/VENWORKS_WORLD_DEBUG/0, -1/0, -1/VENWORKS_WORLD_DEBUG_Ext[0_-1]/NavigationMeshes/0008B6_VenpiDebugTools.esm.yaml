@@ -1,0 +1,139 @@
+FormKey: 0008B6:VenpiDebugTools.esm
+NavmeshGeometry:
+  Versioning:
+  - Break0
+  NavmeshVersion: 17
+  Parent:
+    MutagenObjectType: WorldspaceNavmeshParent
+    Parent: 000BAC:VenpiDebugTools.esm
+    Coordinates: -1, 0
+  Vertices:
+  - Point: 12.75, -1.1500015, 1.7146893
+    Unknown: 1
+  - Point: 14.05, -0.29999542, 1.7146893
+    Unknown: 1
+  - Point: 13.8, 0, 1.9146881
+    Unknown: 1
+  - Point: 10.45, -0.5, 2.8646889
+    Unknown: 1
+  - Point: 11.125, 0, 2.8646889
+  - Point: 8.45, 0, 3.2146893
+    Unknown: 1
+  - Point: 11.759267, 0, 2.639435
+  - Point: 13.695856, 0, 1.951674
+  - Point: 9.017257, 0, 3.1404686
+  - Point: 10.393081, 0, 2.960454
+  Triangles:
+  - Vertices: 0, 1, 2
+    EdgeLink_0_1: -1
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: 1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 32768
+  - Vertices: 0, 2, 3
+    EdgeLink_1_2: 2
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49156
+  - Vertices: 3, 2, 7
+    EdgeLink_0_1: 1
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: 5
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+  - Vertices: 9, 3, 4
+    EdgeLink_0_1: 7
+    EdgeLink_1_2: 4
+    EdgeLink_2_0: 1
+    Height: 3.4028235E+38
+    Flags:
+    - EdgeLink_2_0
+    - Found
+    - 0x1000
+    CoverFlags: 32768
+  - Vertices: 3, 6, 4
+    EdgeLink_0_1: 5
+    EdgeLink_1_2: 3
+    EdgeLink_2_0: 3
+    Height: 3.4028235E+38
+    Flags:
+    - EdgeLink_1_2
+    - Found
+    - 0x1000
+  - Vertices: 3, 7, 6
+    EdgeLink_0_1: 2
+    EdgeLink_1_2: 4
+    EdgeLink_2_0: 4
+    Height: 3.4028235E+38
+    Flags:
+    - EdgeLink_1_2
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 5, 3, 8
+    EdgeLink_0_1: -1
+    EdgeLink_1_2: 7
+    EdgeLink_2_0: 2
+    Height: 3.334045
+    Flags:
+    - EdgeLink_2_0
+    - Found
+    - 0x1000
+    CoverFlags: 32769
+  - Vertices: 8, 3, 9
+    EdgeLink_0_1: 6
+    EdgeLink_1_2: 3
+    Height: 3.4028235E+38
+    Flags:
+    - EdgeLink_2_0
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  EdgeLinks:
+  - Mesh: 0009AC:VenpiDebugTools.esm
+    TriangleIndex: 6
+  - Mesh: 0009AC:VenpiDebugTools.esm
+    TriangleIndex: 32
+  - Mesh: 0009AC:VenpiDebugTools.esm
+    TriangleIndex: 40
+  - Mesh: 0009AC:VenpiDebugTools.esm
+    TriangleIndex: 41
+  - Mesh: 0009AC:VenpiDebugTools.esm
+    TriangleIndex: 39
+  Cover:
+  - Vertex2: 3
+    Data: 250690800714753
+  - Vertex1: 3
+    Vertex2: 5
+    Data: 30786325709313
+  CoverTriangleMappings:
+  - Cover: 24
+    Triangle: 1
+  - Cover: 6
+  GridSize: 1
+  GridMaxDistance: 5.6000004, 1.1500015
+  GridMin: 8.45, -1.1500015, 1.7146893
+  GridMax: 14.05, 0, 3.4028235E+38
+  GridArrays:
+  - GridCell:
+    - 8
+    - 0
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 12
+    - 8
+PreCutMapEntries: []

@@ -1,0 +1,63 @@
+FormKey: 0009A5:VenpiDebugTools.esm
+NavmeshGeometry:
+  Versioning:
+  - Break0
+  NavmeshVersion: 17
+  Parent:
+    MutagenObjectType: WorldspaceNavmeshParent
+    Parent: 000BAC:VenpiDebugTools.esm
+  Vertices:
+  - Point: 62.600002, 62.15, -5.0866585
+    Unknown: 1
+  - Point: 63.95, 58.4, -3.3866577
+    Unknown: 1
+  - Point: 63.77, 61.070004, -3.9366589
+    Unknown: 1
+  - Point: 63.2, 62.4, -4.936659
+    Unknown: 1
+  - Point: 63.65, 62.850002, -4.8366585
+    Unknown: 1
+  Triangles:
+  - Vertices: 0, 1, 2
+    EdgeLink_0_1: -1
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: 1
+    Height: 3.4028235E+38
+    Unknown: 4
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 32768
+  - Vertices: 3, 0, 2
+    EdgeLink_0_1: -1
+    EdgeLink_2_0: 2
+    Height: 3.4028235E+38
+    Unknown: 4
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 4, 3, 2
+    EdgeLink_0_1: -1
+    EdgeLink_1_2: 1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Unknown: 4
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  GridSize: 1
+  GridMaxDistance: 1.3499985, 4.450001
+  GridMin: 62.600002, 58.4, -5.0866585
+  GridMax: 63.95, 62.850002, 3.4028235E+38
+  GridArrays:
+  - GridCell:
+    - 3
+    - 0
+    - 0
+    - 1
+    - 2
+    - 12
+    - 8
+PreCutMapEntries: []

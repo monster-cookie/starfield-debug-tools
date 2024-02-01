@@ -1,0 +1,322 @@
+FormKey: 0008B4:VenpiDebugTools.esm
+NavmeshGeometry:
+  Versioning:
+  - Break0
+  NavmeshVersion: 17
+  Parent:
+    MutagenObjectType: WorldspaceNavmeshParent
+    Parent: 000BAC:VenpiDebugTools.esm
+    Coordinates: -1, 0
+  Vertices:
+  - Point: 67.85, -41.35, -1.3853111
+    Unknown: 1
+  - Point: 67.35, -40.05, -1.3853111
+    Unknown: 1
+  - Point: 66.25, -41.05, -1.4353123
+    Unknown: 1
+  - Point: 66.75, -41.6, -1.3853111
+    Unknown: 1
+  - Point: 65.4, -40.55, -1.3853111
+    Unknown: 1
+  - Point: 66.6, -38.5, -1.4353123
+    Unknown: 1
+  - Point: 63.75, -38.8, -1.3853111
+    Unknown: 1
+  - Point: 63.7, -39.8, -1.4353123
+    Unknown: 1
+  - Point: 65.700005, -37.5, -1.4853115
+    Unknown: 1
+  - Point: 64.3, -37.3, -1.3353119
+    Unknown: 1
+  - Point: 63.600002, -37.8, -1.3353119
+    Unknown: 1
+  - Point: 63.2, -38.2, -1.3853111
+    Unknown: 1
+  - Point: 63.8, -37.25, -1.3353119
+    Unknown: 1
+  - Point: 65.35, -37.05, -1.4353123
+    Unknown: 1
+  - Point: 66.6, -37.8, -1.4353123
+    Unknown: 1
+  - Point: 67.55, -38.95, -1.4853115
+    Unknown: 1
+  - Point: 67.75, -40.1, -1.5853119
+    Unknown: 1
+  - Point: 65.9, -41.1, -1.4353123
+    Unknown: 1
+  - Point: 68.25, -40.55, -1.3853111
+    Unknown: 1
+  - Point: 66.28333, -41.086666, -1.4319788
+  - Point: 66.64318, -38.520454, -1.437585
+  - Point: 67.435715, -40.09762, -1.3853111
+  Triangles:
+  - Vertices: 0, 1, 2
+    EdgeLink_0_1: 16
+    EdgeLink_1_2: 2
+    EdgeLink_2_0: 1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 0, 2, 3
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49154
+  - Vertices: 4, 2, 1
+    EdgeLink_0_1: 15
+    EdgeLink_2_0: 3
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 4, 1, 5
+    EdgeLink_0_1: 2
+    EdgeLink_1_2: 13
+    EdgeLink_2_0: 4
+    Height: 3.4028235E+38
+    Flags:
+    - Preferred
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 4, 5, 6
+    EdgeLink_0_1: 3
+    EdgeLink_1_2: 6
+    EdgeLink_2_0: 5
+    Height: 3.4028235E+38
+    Flags:
+    - Preferred
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 7, 4, 6
+    EdgeLink_0_1: -1
+    EdgeLink_1_2: 4
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49157
+  - Vertices: 5, 8, 6
+    EdgeLink_0_1: 12
+    EdgeLink_1_2: 7
+    EdgeLink_2_0: 4
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 8, 9, 6
+    EdgeLink_0_1: 11
+    EdgeLink_1_2: 8
+    EdgeLink_2_0: 6
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49152
+  - Vertices: 6, 9, 10
+    EdgeLink_0_1: 7
+    EdgeLink_1_2: 10
+    EdgeLink_2_0: 9
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 16384
+  - Vertices: 6, 10, 11
+    EdgeLink_0_1: 8
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 16390
+  - Vertices: 10, 9, 12
+    EdgeLink_0_1: 8
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 6
+  - Vertices: 9, 8, 13
+    EdgeLink_0_1: 7
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 16390
+  - Vertices: 8, 5, 14
+    EdgeLink_0_1: 6
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49158
+  - Vertices: 5, 1, 15
+    EdgeLink_0_1: 3
+    EdgeLink_1_2: 14
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49156
+  - Vertices: 15, 1, 16
+    EdgeLink_0_1: 13
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+  - Vertices: 2, 4, 17
+    EdgeLink_0_1: 2
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 32774
+  - Vertices: 1, 0, 18
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 49156
+  Cover:
+  - Vertex1: 3
+    Vertex2: 19
+    Data: 250690798617601
+  - Vertex1: 2
+    Vertex2: 4
+    Data: 268280837309953
+  - Vertex1: 4
+    Vertex2: 7
+    Data: 30786325579265
+  - Vertex1: 7
+    Vertex2: 6
+    Data: 211106232534529
+  - Vertex1: 6
+    Vertex2: 11
+    Data: 30786325579265
+  - Vertex1: 11
+    Vertex2: 10
+    Data: 175921860445697
+  - Vertex1: 10
+    Vertex2: 12
+    Data: 13194139534849
+  - Vertex1: 12
+    Vertex2: 9
+    Data: 246290604623361
+  - Vertex1: 9
+    Vertex2: 13
+    Data: 17592186045953
+  - Vertex1: 13
+    Vertex2: 8
+    Data: 246290604623361
+  - Vertex1: 8
+    Vertex2: 14
+    Data: 30786325579265
+  - Vertex1: 14
+    Vertex2: 5
+    Data: 246290604623361
+  - Vertex1: 20
+    Vertex2: 15
+    Data: 65970697667073
+  - Vertex1: 21
+    Vertex2: 18
+    Data: 30788473061377
+  CoverTriangleMappings:
+  - Cover: 22
+    Triangle: 3
+  - Cover: 49
+    Triangle: 11
+  - Cover: 20
+    Triangle: 2
+  - Cover: 37
+    Triangle: 5
+  - Cover: 46
+    Triangle: 8
+  - Cover: 62
+    Triangle: 1
+  - Cover: 42
+    Triangle: 6
+  - Cover: 38
+    Triangle: 4
+  - Cover: 45
+    Triangle: 9
+  - Cover: 50
+    Triangle: 10
+  - Cover: 5
+  - Cover: 41
+    Triangle: 7
+  - Cover: 66
+    Triangle: 13
+  - Cover: 61
+    Triangle: 1
+  - Cover: 54
+    Triangle: 12
+  GridSize: 2
+  GridMaxDistance: 2.5249996, 2.2749996
+  GridMin: 63.2, -41.6, -1.5853119
+  GridMax: 68.25, -37.05, 3.4028235E+38
+  GridArrays:
+  - GridCell:
+    - 5
+    - 0
+    - 2
+    - 3
+    - 4
+    - 5
+    - 15
+    - 9
+    - 0
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 13
+    - 14
+    - 15
+    - 16
+    - 9
+    - 0
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 6
+    - 0
+    - 3
+    - 4
+    - 6
+    - 12
+    - 13
+    - 14
+    - 12
+    - 8
+PreCutMapEntries: []

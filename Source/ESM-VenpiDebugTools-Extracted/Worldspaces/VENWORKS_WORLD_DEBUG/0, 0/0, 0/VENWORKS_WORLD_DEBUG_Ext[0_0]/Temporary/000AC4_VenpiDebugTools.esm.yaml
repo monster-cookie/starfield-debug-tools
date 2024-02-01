@@ -1,0 +1,6 @@
+MutagenObjectType: PlacedObject
+FormKey: 000AC4:VenpiDebugTools.esm
+Base: 030495:Starfield.esm
+SourcePackIn: 1A8780:Starfield.esm
+Position: 41.09693, 62.412983, -1.4453125
+Rotation: 2.7635696, 0.39761907, 2.7851782
