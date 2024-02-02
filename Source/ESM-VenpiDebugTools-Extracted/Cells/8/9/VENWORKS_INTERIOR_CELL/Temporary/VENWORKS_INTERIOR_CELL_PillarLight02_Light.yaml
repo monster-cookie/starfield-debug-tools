@@ -1,7 +1,7 @@
 MutagenObjectType: PlacedObject
-FormKey: 000BE4:VenpiDebugTools.esm
+FormKey: 000BF8:VenpiDebugTools.esm
 MajorRecordFlagsRaw: 256
-EditorID: VENWORKS_INTERIOR_CELL_Hab1_Chandelier2_Right_Light
+EditorID: VENWORKS_INTERIOR_CELL_PillarLight02_Light
 StarfieldMajorRecordFlags:
 - 0x100
 Components:
@@ -23,4 +23,4 @@ LightColors:
 - UnknownColor: '#00AD88'
   Unknown: -6076575255718002688
 Layer: 1E9BFB:Starfield.esm
-Position: 0.55, 38.100014, 3.1
+Position: -1, 45.5, 4.5

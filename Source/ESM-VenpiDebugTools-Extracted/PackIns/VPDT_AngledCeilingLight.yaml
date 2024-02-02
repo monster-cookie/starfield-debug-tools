@@ -1,0 +1,19 @@
+FormKey: 000BF0:VenpiDebugTools.esm
+MajorRecordFlagsRaw: 2560
+EditorID: VPDT_AngledCeilingLight
+StarfieldMajorRecordFlags:
+- 0x200
+- InitiallyDisabled
+ObjectBounds:
+  First: -1, -2, -0.1
+  Second: 1, 2, 0.1
+ODTY: 0
+Cell: 000BEF:VenpiDebugTools.esm
+Version: 0
+FNAM: 0x0C000000
+Keywords:
+- 1460FF:Starfield.esm
+MaterialSwaps: []
+MajorFlags:
+- Prefab
+- 0x800

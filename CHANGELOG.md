@@ -1,5 +1,11 @@
 # Venworks Debug Tools
 
+
+## Version 1.0.4
+* Totally screwed up and put the entrance at the exit /facepalm
+* Added more light poles at the entrance and another over the workstations
+* Added more hab lighting 
+
 ## Version 1.0.3
 * World Space recreated on a real terrain with water support
 * World space cell has hab with all benches not. 

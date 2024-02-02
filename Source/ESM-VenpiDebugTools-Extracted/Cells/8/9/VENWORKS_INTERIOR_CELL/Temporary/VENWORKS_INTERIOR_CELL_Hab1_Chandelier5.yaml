@@ -1,0 +1,9 @@
+MutagenObjectType: PlacedObject
+FormKey: 000BFC:VenpiDebugTools.esm
+MajorRecordFlagsRaw: 256
+EditorID: VENWORKS_INTERIOR_CELL_Hab1_Chandelier5
+StarfieldMajorRecordFlags:
+- 0x100
+Base: 000BF0:VenpiDebugTools.esm
+Position: 0.35, 20.099998, 3.1
+Rotation: 0, 0, 2.6179936

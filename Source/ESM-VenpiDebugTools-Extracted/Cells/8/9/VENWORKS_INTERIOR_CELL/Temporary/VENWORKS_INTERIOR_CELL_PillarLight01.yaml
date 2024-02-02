@@ -4,5 +4,5 @@ MajorRecordFlagsRaw: 256
 EditorID: VENWORKS_INTERIOR_CELL_PillarLight01
 StarfieldMajorRecordFlags:
 - 0x100
-Base: 28B199:Starfield.esm
+Base: 000BEE:VenpiDebugTools.esm
 Position: -10.5, 45.5, -0.5
