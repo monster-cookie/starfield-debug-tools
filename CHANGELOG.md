@@ -1,5 +1,8 @@
 # Venworks Debug Tools
 
+## Version 1.0.5
+* Added papyrus checks for the plugins not being loaded before using Game.GetFormByFile()
+* You can use the current overridden object method or the new [Real Time Form Patcher](https://www.nexusmods.com/starfield/mods/8324) method to add custom fast travel destinations. 
 
 ## Version 1.0.4
 * Totally screwed up and put the entrance at the exit /facepalm

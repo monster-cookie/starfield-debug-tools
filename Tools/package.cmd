@@ -9,4 +9,4 @@ REM Clear Dist DIR
 del /q "C:\Users\degre\Downloads\VenpiDebugTools.zip"
 
 REM Archive Dist Dir
-"D:\Program Files\PexTools\7za.exe" a -tzip "C:\Users\degre\Downloads\VenpiDebugTools.zip" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist\*.*"
+"D:\Program Files\PexTools\7za.exe" a -r -tzip "C:\Users\degre\Downloads\VenpiDebugTools.zip" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist\*.*"

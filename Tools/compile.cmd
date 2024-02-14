@@ -10,6 +10,7 @@ cd "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Tools"
 del /s /q "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist\*.*"
 rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist"
 mkdir "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist"
+mkdir "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist\SFSE\Plugins\RealTimeFormPatcher"
 
 @REM Clear Dist-BA2-Main DIR
 @echo "Clearing and scafolding the Dist-BA2-Main dir"
@@ -54,6 +55,10 @@ copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Mesh
 @REM Deploy Terrain to Dist-BA2-Main folder
 @echo "Deploy Terrain to Dist-BA2-Main folder"
 copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\Terrain\VENWORKS_WORLD_DEBUG.btd" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist-BA2-Main\terrain"
+
+@REM Deploy RTFP to Dist folder
+@echo "Deploy RTFP to Dist folder"
+copy /y "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Source\RTFP\VenworksDebugTargetSystem.txt" "C:\Repositories\Public\Starfield Mods\starfield-debug-tools\Dist\SFSE\Plugins\RealTimeFormPatcher"
 
 @REM ESM is purely binary so need to pull from starfield dir where xedit has to have it 
 @echo "Copying the ESM from MO2 into the Dist folder"

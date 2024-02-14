@@ -8,22 +8,32 @@ This is a debug interior cell and functional world space for testing game functi
 [*]Interior Cell with an enclosed room 
 [*]Exterior world space I'm still building 
 [*]Papyrus helper command for easier teleporting 
+[*]Real Time From Patcher removes the need for overriding and adding masters
 [/list]
 
 [size=4][b][u]Planned Features[/u][/b][/size]
 [list]
-[*]Programmable portal that doesn't need masters 
-[*]Flesh out the world space a lot more terrain wise
+[*]Nothing special planned currently
 [/list]
 
 [size=4][b][u]Usage[/u][/b][/size]
 You can get the list of helper commands using the console and: CGF "VPDT_Help.Show"
 
-[size=3][b][u]Setup custom fast travel points[/u][/b][/size]
-
-[b]Do not remove the 3 fast travel targets that are already in the list.[/b]
-
 You need to fast travel to world space cells from the interior debug cell. If you try from a world space cell it will start the fast travel then goto a endless loading screen and sometimes crashing your video card. 
+
+[size=3][b][u]Setup custom fast travel points via RTFP - New Method[/u][/b][/size]
+
+[list=1]
+[*]Navigate to <GameDir>\Data\SFSE\Plugins\RealTimeFormPatcher
+[*]Find and edit VenworksDebugTargetSystem.txt (Make it if it doesn't exist but it should)
+[*]In the [FormList] section add new records for each MapMarker or XMarkerHeading reference you want to be able to fast travel too. Example that adds Neon: VenpiDebugTools.esm~00000856|add(Starfield.esm~0000DB23)
+[*]In the [Message] section add new records matching to the destination of the items you added in the previous step. Example menu item for Neon: VenpiDebugTools.esm~00000858|add_but(Neon:~)
+[*]Save the file and exit your text editor
+[/list]
+
+[size=3][b][u]Setup custom fast travel points via overridden objections - Old Method[/u][/b][/size]
+
+[b]Do not remove the 2 fast travel targets that are already in the list.[/b]
 
 Please note, when adding you markers to the overridden VPDT_FT_Destinations list you may have to add the master first. xedit/sf1edit are a bit weird in their automatic add master call. 
 [list=1]
@@ -33,12 +43,6 @@ Please note, when adding you markers to the overridden VPDT_FT_Destinations list
 [*]Add the XMarkerHeading or COCMarkers for your cells (Normal Interior and World Space) to the VPDT_FT_Destinations
 [*]Add new menu items for the destination to VPDT_FT_Titles make sure the menu button IDs match the FormID List indexes.
 [*]Exit xedit/sf1edit saving your new file and place it where ever your need to for your installation. 
-[*]Start Starfield
-[*]Load your save 
-[*]Open the console usually ~
-[*]Type and execute: CGF "VPDT_Debug.FastTravelLocations"
-[*]Close the console usually ~
-[*]Choose your poison and fast travel
 [/list]
 
 [b][u]Example settings for VPDT_FT_Destinations[/b][/u]
@@ -49,6 +53,17 @@ Please note, when adding you markers to the overridden VPDT_FT_Destinations list
 
 [b][u]Updated Fast Travel menu[/b][/u]
 [img]https://i.imgur.com/wQuKkgd.png[/img]
+
+[size=3][b][u]Fast traveling to your custom destinations[/u][/b][/size]
+
+[list=1]
+[*]Start Starfield
+[*]Load your save 
+[*]Open the console usually ~
+[*]Type and execute: CGF "VPDT_Debug.FastTravelLocations"
+[*]Close the console usually ~
+[*]Choose your poison and fast travel
+[/list]
 
 [size=4][b][u]Installation [/u][/b][/size]
 
@@ -79,4 +94,4 @@ These are instructions from the author of the mod:
 [/list]
 
 [size=4][b][u]Source Code[/u][/b][/size]
-The source code to this is on GitHub under the repository [url=https://github.com/monster-cookie/starfield-debug-tools]starfield-debug-tools[/url]
+The source code to this is on GitHub under the repository [url=https://github.com/monster-cookie/starfield-debug-tools]starfield-debug-tools[/url]

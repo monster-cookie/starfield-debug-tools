@@ -1,0 +1,11 @@
+[size=4][b][u]Setup custom fast travel points via RTFP[/u][/b][/size]
+
+This method uses [url=https://www.nexusmods.com/starfield/mods/8324]Real Time Form Patcher[/url] to extend the build in fast travel menu. 
+
+[list=1]
+[*]Navigate to <GameDir>\Data\SFSE\Plugins\RealTimeFormPatcher
+[*]Find and edit VenworksDebugTargetSystem.txt (Make it if it doesn't exist but it should)
+[*]In the [FormList] section add new records for each MapMarker or XMarkerHeading reference you want to be able to fast travel too. Example that adds Neon: VenpiDebugTools.esm~00000856|add(Starfield.esm~0000DB23)
+[*]In the [Message] section add new records matching to the destination of the items you added in the previous step. Example menu item for Neon: VenpiDebugTools.esm~00000858|add_but(Neon:~)
+[*]Save the file and exit your text editor
+[/list]

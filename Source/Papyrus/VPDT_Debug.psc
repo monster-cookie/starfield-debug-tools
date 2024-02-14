@@ -11,6 +11,10 @@ ScriptName VPDT_Debug
 
 ;; Call using: CGF "VPDT_Debug.FeatureFlags" 
 Function FeatureFlags() Global
+  if (!Game.IsPluginInstalled("VenpiCore.esm"))
+    Debug.MessageBox("VenpiCore.esm is not installed or enabled. Please contact Venpi for help.")
+  endIf
+
   GlobalVariable Venpi_DebugEnabled = Game.GetFormFromFile(0x00000800, "VenpiCore.esm") as GlobalVariable
 
   String message = "Current Feature Flag Settings (1-On, 0=Off)\n\n"
@@ -22,6 +26,10 @@ EndFunction
 
 ;; Call using: CGF "VPDT_Debug.ToggleDebugMode" 
 Function ToggleDebugMode() Global
+  if (!Game.IsPluginInstalled("VenpiCore.esm"))
+    Debug.MessageBox("VenpiCore.esm is not installed or enabled. Please contact Venpi for help.")
+  endIf
+
   GlobalVariable Venpi_DebugEnabled = Game.GetFormFromFile(0x00000800, "VenpiCore.esm") as GlobalVariable
   If (Venpi_DebugEnabled == None)
     Debug.MessageBox("Failed to find Venpi_DebugEnabled global variable in VenpiCore.esm. Please contact Venpi for help.")
@@ -38,6 +46,10 @@ EndFunction
 
 ;; Call using: CGF "VPDT_Debug.FastTravelToDebugCell" 
 Function FastTravelToDebugCell() Global
+  if (!Game.IsPluginInstalled("VenpiDebugTools.esm"))
+    Debug.MessageBox("VenpiDebugTools.esm is not installed or enabled. Please contact Venpi for help.")
+  endIf
+
   Form VenpiDebugFT = Game.GetFormFromFile(0x00000801, "VenpiDebugTools.esm")
   If (VenpiDebugFT == None)
     Debug.MessageBox("Failed to find VenpiDebugFT global variable in VenpiDebugTools.esm. Please contact Venpi for help.")
@@ -49,6 +61,10 @@ EndFunction
 
 ;; Call using: CGF "VPDT_Debug.FastTravelToLodge" 
 Function FastTravelToLodge() Global
+  if (!Game.IsPluginInstalled("VenpiDebugTools.esm"))
+    Debug.MessageBox("VenpiDebugTools.esm is not installed or enabled. Please contact Venpi for help.")
+  endIf
+
   Form LodgeFT = Game.GetFormFromFile(0x000F93F0, "Starfield.esm")
   If (LodgeFT == None)
     Debug.MessageBox("Failed to find LodgeFT global variable in Starfield.esm. Please contact Venpi for help.")
@@ -60,6 +76,10 @@ EndFunction
 
 ;; Call using: CGF "VPDT_Debug.FastTravelToDebugWorldSpace" 
 Function FastTravelToDebugWorldSpace() Global
+  if (!Game.IsPluginInstalled("VenpiDebugTools.esm"))
+    Debug.MessageBox("VenpiDebugTools.esm is not installed or enabled. Please contact Venpi for help.")
+  endIf
+
   Form DebugEntrance = Game.GetFormFromFile(0x00000853, "VenpiDebugTools.esm")
   If (DebugEntrance == None)
     Debug.MessageBox("Failed to find DebugEntrance global variable in VenpiDebugTools.esm. Please contact Venpi for help.")
@@ -71,14 +91,22 @@ EndFunction
 
 ;; Call using: CGF "VPDT_Debug.FastTravelLocations"
 Function FastTravelLocations() Global
+  if (!Game.IsPluginInstalled("VenpiDebugTools.esm"))
+    Debug.MessageBox("VenpiDebugTools.esm is not installed or enabled. Please contact Venpi for help.")
+  endIf
+
   FormList VPDT_FT_Destinations = Game.GetFormFromFile(0x00000856, "VenpiDebugTools.esm") as FormList
   If (VPDT_FT_Destinations == None)
     Debug.MessageBox("Failed to find VPDT_FT_Destinations FormList in VenpiDebugTools.esm. Please contact Venpi for help.")
     Return
   EndIf
 
-  If (VPDT_FT_Destinations.GetSize() < 3)
-    Debug.MessageBox("VPDT_FT_Destinations has less then 3 targets which is wrong. Please contact Venpi for help.")
+  If (VPDT_FT_Destinations.GetSize() <= 1)
+    If (VPDT_FT_Destinations.GetSize() == 1)
+      Debug.MessageBox("VPDT_FT_Destinations has less then 2 targets (" + VPDT_FT_Destinations.GetSize() + ") which is wrong. The only target was " + VPDT_FT_Destinations.GetAt(1) + ". Please contact Venpi for help.")
+    Else
+      Debug.MessageBox("VPDT_FT_Destinations has no targets which is wrong. Please contact Venpi for help.")
+    EndIf
     Return
   EndIf
 
